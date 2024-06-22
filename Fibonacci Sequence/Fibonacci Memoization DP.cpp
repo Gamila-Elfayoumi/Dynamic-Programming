@@ -3,7 +3,7 @@
 using namespace std;
 int Fibonacci(int n) {
     unordered_map<int, int>memo;
-    if (n == 0) return 0;
+    if (n == 0) return 1;
     if (n == 1) return 1;
     if (memo.find(n) != memo.end()) return memo[n];
     memo[n] = Fibonacci(n - 1) + Fibonacci(n - 2);
