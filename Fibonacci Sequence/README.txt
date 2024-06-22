@@ -19,3 +19,11 @@ See the code in the "Fibonacci Recursive".
 Second Way:
 
 We can use dynamic programming to achieve the same goal.
+1. Memoization:
+Memoization is a top-down approach where you solve the problem recursively and store the results of subproblems so that you do not need to recompute them when they are needed again.
+
+The time complexity with memoization becomes 𝑂(𝑛).
+The space Complexity is 𝑂(𝑛).
+
+See the code in the "Fibonacci Memoization DP".
+
